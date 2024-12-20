@@ -3,6 +3,10 @@ import java.util.List;
 
 public class Pedido {
 
+    public Pedido(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
     private Cliente cliente;
     private List<LinhadePedido> linhadePedido;
     

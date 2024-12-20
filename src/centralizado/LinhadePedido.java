@@ -9,6 +9,11 @@ public class LinhadePedido {
       return quantidade;
     }
 
+    public LinhadePedido(Integer quantidade, Produto produto) {
+        this.quantidade = quantidade;
+        this.produto = produto;
+    }
+
     public Produto obteProduto(){
         return produto;
     }
@@ -17,7 +22,4 @@ public class LinhadePedido {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'obterProduto'");
     }
-
-    
-
 }
